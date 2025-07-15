@@ -1,10 +1,10 @@
-# MitoDetect: Deep Learning-based Mitochondrial Signal Detection
+# Deep Learning-based model for mitochondrial signal detection
 
 A deep learning-based model for automatic detection of true mitochondrial signals from Suite2p output in calcium imaging data.
 
 ## Overview
 
-MitoDetect is a CNN-LSTM hybrid neural network designed to distinguish genuine mitochondrial calcium signals from noise and artifacts in Suite2p-processed calcium imaging data. The model combines convolutional layers for feature extraction with LSTM layers for temporal sequence modeling, achieving high accuracy in mitochondrial signal classification.
+Since many detected ROIs may represent noise-correlated pixels but not true calcium events, there is a high false-positive rate after the Suite2p analysis. To resolve this problem, we developed a deep learning based classifier model to distinguish genuine [Ca2+]mito events from artefact.
 
 ## Repository Structure
 
@@ -151,11 +151,11 @@ This indicates:
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@article{mitodetect2024,
-  title={MitoDetect: Deep Learning-based Detection of Mitochondrial Calcium Signals},
-  author={Your Name and Co-authors},
-  journal={Journal Name},
-  year={2024},
+@article{mitodetect2025,
+  title={In vivo imaging of neuronal mitochondrial Ca2+ transients with two-photon microscopy in awake mice},
+  author={Shan Qiu, Haoyu Zhang ..., Xianhua Wang},
+  journal={Mitochondrial Communications},
+  year={2025},
   volume={X},
   pages={XXX--XXX},
   doi={10.XXXX/XXXXX}
@@ -172,7 +172,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-For questions and support, please contact: [hauserzhang@pku.edu.cn] or []
+For questions and support, please contact: [hauserzhang@pku.edu.cn] or [qiushan@stu.pku.edu.cn]
 
 ## Acknowledgments
 
