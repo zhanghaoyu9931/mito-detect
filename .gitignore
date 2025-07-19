@@ -208,3 +208,5 @@ __marimo__/
 
 # auxiliary files
 create_demo_data.py
+plaque_mito_analysis/plaque.tif
+plaque_mito_analysis/mito_events/*

@@ -13,13 +13,14 @@ mito-detect/
 ├── mitoDetect.py          # Main detection script
 ├── model_weights.pth      # Pre-trained model weights
 ├── requirements.txt       # Python dependencies
-├── run_demo.sh           # Demo execution script
-├── demo/                 # Demo data directory
-│   ├── Fall.mat          # Demo input data
-│   ├── Label.mat         # Demo output results
-│   └── checked_figs/     # Demo visualization plots
-├── LICENSE               # License file
-└── README.md            # This file
+├── run_demo.sh            # Demo execution script
+├── plaque_mito_analysis/  # Scripts for plaque-mitochondira analysis
+├── demo/                  # Demo data directory
+│   ├── Fall.mat           # Demo input data
+│   ├── Label.mat          # Demo output results
+│   └── checked_figs/      # Demo visualization plots
+├── LICENSE                # License file
+└── README.md              # This file
 ```
 
 ## Requirements
