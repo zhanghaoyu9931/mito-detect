@@ -4,30 +4,6 @@
 
 This module performs spatial correlation analysis between amyloid plaques and mitochondrial calcium events in 3D brain tissue imaging data. It analyzes the spatial relationships between plaque locations and mitochondrial events to understand their functional coupling and spatial distribution patterns.
 
-## Functionality
-
-### Core Analysis Features
-
-1. **Plaque Segmentation and Analysis**
-   - 3D segmentation of amyloid plaques from TIFF image stacks
-   - Volume-based filtering to remove small artifacts
-   - Extraction of 3D centroid coordinates and volumes
-
-2. **Mitochondrial Event Processing**
-   - Extraction of all mitochondrial ROI centroids
-   - Identification of calcium signaling events
-   - Detection of coupling events between mitochondria and calcium signals
-
-3. **Spatial Distance Analysis**
-   - Calculation of nearest plaque distances for each mitochondrial event
-   - Weighted distance analysis (distance/volume ratio)
-   - Classification of events as "close" or "distal" based on median distance
-
-4. **Statistical Analysis**
-   - Coupling event distribution analysis in close vs distal regions
-   - Correlation analysis between coupling fidelity and plaque distance
-   - Multi-slice data aggregation and visualization
-
 ## File Structure
 
 ```
